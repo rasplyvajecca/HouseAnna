@@ -4,9 +4,9 @@ import "fmt"
 
 func describeHouse(house House) {
 	fmt.Printf("Описание дома:\n")
-	fmt.Printf("Длина: %.2f кв. м\n", house.Length)
-	fmt.Printf("Ширина: %.2f кв. м\n", house.Width)
-	fmt.Printf("Высота:%.2f кв. м\n", house.Height)
+	fmt.Printf("Длина: %.2f м\n", house.Length)
+	fmt.Printf("Ширина: %.2f м\n", house.Width)
+	fmt.Printf("Высота:%.2f м\n", house.Height)
 
 	fmt.Println("Описание семьи:")
 	for _, member := range house.FamilyInformation {
@@ -19,8 +19,8 @@ func describeHouse(house House) {
 	}
 
 	fmt.Println("Описание комнат:")
-	for _, member := range house.RoomsInformation {
-		fmt.Printf("- %s: %.2f кв. м\n", member.Name, member.Size)
+	for _, room := range house.RoomsInformation {
+		fmt.Printf("- %s: %.2f кв. м\n", room.Name, room.Size)
 	}
 
 	fmt.Println("Описание растений:")
