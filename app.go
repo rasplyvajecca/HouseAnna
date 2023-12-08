@@ -5,6 +5,6 @@ import (
 )
 
 func main() {
-	HouseAnna := house.CreateHouse()
-	house.DescribeHouse(HouseAnna)
+	houseAnna := house.CreateHouse()
+	house.DescribeHouse(houseAnna)
 }
