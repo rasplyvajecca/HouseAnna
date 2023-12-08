@@ -1,4 +1,4 @@
-package main
+package rooms
 
 type Rooms struct {
 	Name string

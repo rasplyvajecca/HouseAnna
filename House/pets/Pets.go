@@ -1,4 +1,4 @@
-package main
+package pets
 
 type Pets struct {
 	Member string

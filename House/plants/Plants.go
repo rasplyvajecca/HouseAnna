@@ -1,4 +1,4 @@
-package main
+package plants
 
 type Plants struct {
 	Name  string
