@@ -1,11 +1,11 @@
 package house
 
 import (
-	"HouseAnna/House/family"
-	"HouseAnna/House/pets"
-	"HouseAnna/House/plants"
-	"HouseAnna/House/rooms"
-	"HouseAnna/House/tablewear"
+	"HouseAnna/house/family"
+	"HouseAnna/house/pets"
+	"HouseAnna/house/plants"
+	"HouseAnna/house/rooms"
+	"HouseAnna/house/tablewear"
 	"fmt"
 )
 

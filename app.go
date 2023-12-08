@@ -1,7 +1,7 @@
 package main
 
 import (
-	"HouseAnna/House/house"
+	"HouseAnna/house/house"
 )
 
 func main() {
