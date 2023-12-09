@@ -1,4 +1,4 @@
-package tablewear
+package tableware
 
 type Tableware struct {
 	Name     string

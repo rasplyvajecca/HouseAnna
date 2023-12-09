@@ -1,10 +1,10 @@
 package main
 
 import (
-	"HouseAnna/house/house"
+	"HouseAnna/house/home"
 )
 
 func main() {
-	houseAnna := house.CreateHouse()
-	house.DescribeHouse(houseAnna)
+	houseAnna := home.CreateHome()
+	home.DescribeHome(houseAnna)
 }
