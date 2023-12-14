@@ -1,12 +1,12 @@
 package home
 
 import (
-	"HouseAnna/house/family"
-	"HouseAnna/house/pets"
-	"HouseAnna/house/plants"
-	"HouseAnna/house/rooms"
-	"HouseAnna/house/tableware"
 	"fmt"
+	"houseAnna/house/family"
+	"houseAnna/house/pets"
+	"houseAnna/house/plants"
+	"houseAnna/house/rooms"
+	"houseAnna/house/tableware"
 )
 
 type Home struct {
